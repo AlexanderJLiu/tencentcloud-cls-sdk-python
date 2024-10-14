@@ -26,6 +26,8 @@ requirements_py3 = [
     'requests',
     'protobuf>=3.4.0,<4.0.0',
     'lz4',
+    'python-dateutil',
+    'python-snappy'
 ]
 
 requirements_py2 = [
@@ -33,6 +35,8 @@ requirements_py2 = [
     'requests==2.23.0',
     'protobuf<=3.4.0',
     'lz4',
+    'python-dateutil',
+    'python-snappy'
 ]
 
 requirements = []
@@ -67,7 +71,7 @@ classifiers = [
 ]
 
 long_description = """
-Python SDK for TencentCloud Log Service 
+Python SDK for TencentCloud Log Service
 http://tencentcloud-cls-sdk-python.readthedocs.io
 """
 
