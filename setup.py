@@ -27,7 +27,7 @@ requirements_py3 = [
     'protobuf>=3.4.0,<4.0.0',
     'lz4<=3.1.2',
     'python-dateutil',
-    'python-snappy'
+    'python-snappy<=0.6.0'
 ]
 
 requirements_py2 = [
